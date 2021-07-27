@@ -1,0 +1,665 @@
+@amarelo: #efdd59;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+p {
+  font-size: 14px;
+}
+header {
+  background: url(../imagens/group-diverse-people-having-business-meeting\ 1.png) no-repeat;
+  height: 400px;
+  padding: 40px 85px;
+  background-size: cover;
+  .topoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    nav {
+      a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 24px;
+        &:hover {
+          color: @amarelo;
+        }
+      }
+      a.parceiro {
+        margin-right: 20px;
+      }
+    }
+  }
+  .text {
+    width: 57%;
+    h1 {
+      color: @amarelo;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 46px;
+      margin-top: 130px;
+    }
+    p {
+      color: white;
+      font-size: 18px;
+      line-height: 21px;
+      margin-top: 20px;
+    }
+  }
+}
+.motivos {
+  padding: 30px;
+  background: #232323;
+  display: flex;
+  align-items: center;
+  .boxText {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    p {
+      font-size: 24px;
+      color: white;
+      font-weight: bold;
+      line-height: 28px;
+      width: 70%;
+    }
+  }
+  .divisoria {
+    border: 1px solid #ffffff;
+    opacity: 0.1;
+    height: 150px;
+  }
+  .box {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .icon {
+      color: @amarelo;
+      font-size: 40px;
+    }
+    p.titulo {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    p {
+      color: white;
+      font-size: 13px;
+      width: 56%;
+      text-align: center;
+      margin-top: 3px;
+    }
+  }
+}
+.semBurocracia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4%;
+  padding-top: 5%;
+  .imagemBurocracia {
+    border: @amarelo solid 10px;
+    border-radius: 20px;
+    height: 385px;
+    width: 380px;
+    .img {
+      background: url(../imagens/imagem1.png);
+      height: 385px;
+      width: 377px;
+      border-radius: 20px;
+      position: relative;
+      right: 7%;
+      top: 7%;
+    }
+  }
+  .conteudoBurocracia {
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    p.tituloBurocracia {
+      color: #efdd59;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 5%;
+      text-align: left;
+      margin-left: 3%;
+    }
+    p.subtituloBurocracia {
+      font-size: 30px;
+      font-weight: bold;
+      color: #555;
+    }
+    p.texto {
+      margin: 2% 0 7%;
+      width: 90%;
+    }
+    button {
+      padding: 10px 10px;
+      width: 45%;
+      font-weight: bold;
+      background: @amarelo;
+      color: #555;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}
+.corretoresAutonomos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4%;
+  padding: 5% 0;
+  background: url(../imagens/group.png);
+  .conteudoCorretores {
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    p.tituloCorretores {
+      color: #efdd59;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 5%;
+      text-align: left;
+    }
+    p.subtituloCorretores {
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+    }
+    p.texto {
+      margin: 2% 0 7%;
+      width: 90%;
+      color: white;
+    }
+  }
+  .imagemCorretores {
+    border: @amarelo solid 10px;
+    border-radius: 20px;
+    height: 385px;
+    width: 380px;
+    .img {
+      background: url(../imagens/imagemCorretores.png);
+      height: 385px;
+      width: 377px;
+      border-radius: 20px;
+      position: relative;
+      right: 7%;
+      bottom: 7%;
+    }
+  }
+}
+.vantagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4%;
+  padding-top: 5%;
+  .imagemVantagens {
+    border: @amarelo solid 10px;
+    border-radius: 20px;
+    height: 385px;
+    width: 380px;
+    .img {
+      background: url(../imagens/Rectangle7.png);
+      height: 385px;
+      width: 377px;
+      border-radius: 20px;
+      position: relative;
+      right: 30%;
+      bottom: 20%;
+    }
+    .imgDois {
+      background: url(../imagens/Rectangle8.png);
+      height: 353px;
+      width: 293px;
+      position: relative;
+      left: 15%;
+      z-index: 1;
+      bottom: 69%;
+    }
+  }
+  .conteudoVantagens {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    p.tituloVantagens {
+      color: #efdd59;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 5%;
+      text-align: left;
+    }
+    p.subtituloVantagens {
+      font-size: 30px;
+      font-weight: bold;
+      color: #555;
+    }
+    .caixa {
+      margin-top: 10%;
+      .vantagem {
+        display: flex;
+        align-items: center;
+        p {
+          margin-left: 5%;
+        }
+        .icon {
+          font-size: 40px;
+          color: @amarelo;
+        }
+      }
+    }
+  }
+}
+.computador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4%;
+  padding: 5% 0;
+  background: #474b4c;
+  height: 190px;
+  margin-top: 5%;
+  .conteudoComputador {
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    p.tituloComputador {
+      color: #efdd59;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 5%;
+      text-align: left;
+    }
+    p.subtituloComputador {
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+    }
+    p.texto {
+      margin: 2% 0 7%;
+      width: 90%;
+      color: white;
+    }
+  }
+  .imagemComputador {
+    height: 300px;
+    width: 422px;
+    .imgComputador {
+      height: 400px;
+      width: 422px;
+      z-index: 1;
+      position: relative;
+      bottom: 20%;
+    }
+    .imgTela {
+      z-index: 2;
+      position: relative;
+      width: 418px;
+      height: 290px;
+      bottom: 152%;
+    }
+  }
+}
+.passo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 40px;
+  .entendaPasso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    p {
+      text-align: center;
+    }
+    p.tituloPasso {
+      text-transform: uppercase;
+      color: @amarelo;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    p.subtituloPasso {
+      color: #474b4c;
+      font-size: 36px;
+      font-weight: bold;
+      width: 49%;
+      align-self: center;
+      margin-top: 20px;
+    }
+  }
+  .caixasPasso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    .icon {
+      font-size: 57px;
+      cursor: pointer;
+      font-weight: normal;
+    }
+    .box {
+      width: 22%;
+      height: 385px;
+      background: #f7f3f3;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 0px;
+      .icon {
+        color: @amarelo;
+        font-size: 60px;
+      }
+      p.title {
+        font-size: 16px;
+        line-height: 19px;
+        color: #474b4c;
+        margin-top: 15px;
+      }
+      p.subtitle {
+        font-size: 18px;
+        line-height: 21px;
+        color: #474b4c;
+        font-weight: bold;
+      }
+      .text {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #474b4c;
+        width: 70%;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+.perguntas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4%;
+  margin-top: 10%;
+  background: #f4f4f4;
+  padding: 117px 0px;
+  .imagemPerguntas {
+    border: @amarelo solid 10px;
+    border-radius: 20px;
+    height: 394px;
+    width: 430px;
+    .img {
+      background: url(../imagens/Rectangle3.png) no-repeat;
+      height: 439px;
+      width: 429px;
+      border-radius: 20px;
+      position: relative;
+      left: 10%;
+      bottom: 15%;
+      background-size: contain;
+    }
+  }
+  .conteudoPerguntas {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    p.tituloPerguntas {
+      color: #efdd59;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 5%;
+      text-align: left;
+    }
+    p.subtituloPerguntas {
+      font-size: 30px;
+      font-weight: bold;
+      color: #555;
+    }
+    .caixa {
+      margin-top: 10%;
+      .primeiro:hover {
+        .icon {
+          position: relative;
+          right: 5%;
+        }
+      }
+      .segundo:hover {
+        .icon {
+          position: relative;
+          right: 5%;
+        }
+      }
+      .terceiro:hover {
+        .icon {
+          position: relative;
+          right: 5%;
+        }
+      }
+      .quarto:hover {
+        .icon {
+          position: relative;
+          right: 5%;
+        }
+      }
+      .pergunta {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        p {
+          margin-left: 5%;
+          width: 90%;
+        }
+        .icon {
+          font-size: 40px;
+          color: @amarelo;
+        }
+        .iconDois {
+          font-size: 24px;
+        }
+      }
+    }
+    button {
+      padding: 10px 10px;
+      width: 45%;
+      font-weight: bold;
+      background: @amarelo;
+      color: #555;
+      border: none;
+      border-radius: 10px;
+      margin-top: 5%;
+      cursor: pointer;
+    }
+  }
+}
+.solucoes {
+  display: flex;
+  padding: 5% 0;
+  flex-direction: column;
+  .titulosSolucoes {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    .tituloSolucoes {
+      color: #efdd59;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 5%;
+      text-align: center;
+    }
+    .subtituloSolucoes {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .conteudoSolucoes {
+    display: flex;
+    width: 59%;
+    justify-content: space-between;
+    margin: 5% auto;
+    .primeiraColuna {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .caixa {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15%;
+        .icon {
+          font-size: 50px;
+          color: @amarelo;
+        }
+        .texto {
+          margin-left: 4%;
+          p.titulo {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 3%;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+      .caixa-xx {
+        .icon {
+          font-size: 65px;
+        }
+      }
+    }
+    .segundaColuna {
+      width: 35%;
+      .caixa {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15%;
+        .icon {
+          font-size: 50px;
+          color: @amarelo;
+        }
+        .texto {
+          margin-left: 4%;
+          p.titulo {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 3%;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+  justify-content: space-between;
+  background: #f4f4f4;
+  .redes {
+    width: 25%;
+    img {
+      margin-bottom: 10%;
+    }
+    p.market {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      color: #555555;
+    }
+    p.cnpj {
+      margin-top: 10%;
+      font-size: 14px;
+      line-height: 17px;
+      color: #555555;
+    }
+    p.email {
+      font-size: 14px;
+      line-height: 17px;
+      color: #555555;
+      margin-bottom: 10%;
+    }
+    .icons {
+      display: flex;
+      align-items: center;
+      .icon {
+        font-size: 31px;
+        margin-right: 5%;
+        color: #555555;
+        cursor: pointer;
+        &:hover {
+          color: @amarelo;
+        }
+      }
+    }
+  }
+  .empresa {
+    display: flex;
+    flex-direction: column;
+    p {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      color: #555555;
+      margin-bottom: 10%;
+    }
+    a {
+      text-transform: uppercase;
+      cursor: pointer;
+      font-size: 18px;
+      line-height: 21px;
+      color: #555555;
+      margin-bottom: 5%;
+      text-decoration: none;
+      &:hover {
+        color: @amarelo;
+      }
+    }
+  }
+  .parceiro {
+    display: flex;
+    flex-direction: column;
+    p {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      color: #555555;
+      margin-bottom: 10%;
+    }
+    a {
+      text-transform: uppercase;
+      cursor: pointer;
+      font-size: 18px;
+      line-height: 21px;
+      color: #555555;
+      margin-bottom: 5%;
+      text-decoration: none;
+      &:hover {
+        color: @amarelo;
+      }
+    }
+  }
+  .aws{
+      img{
+          width: 70%;
+      }
+  }
+}
